@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        mavenLocal()
+        // @todo: need for universalpush
+        maven {url = uri("https://developer.huawei.com/repo/")}
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+        // @todo: need for universalpush
+        maven {url = uri("https://developer.huawei.com/repo/")}
+    }
+}
+rootProject.name = "UniversalPushExampleApp"
+include ':app'
