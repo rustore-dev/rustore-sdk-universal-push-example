@@ -25,10 +25,10 @@ class App: Application() {
                 logger = DefaultLogger(tag = tag),
             ),
             firebase = FirebasePushProvider(
-                application = this,
+                context = this,
             ),
             hms = HmsPushProvider(
-                application = this,
+                context = this,
                 appid = "108003365",
             ),
         )
