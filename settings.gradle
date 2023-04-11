@@ -16,6 +16,9 @@ dependencyResolutionManagement {
         mavenLocal()
         // @todo: need for universalpush
         maven {url = uri("https://developer.huawei.com/repo/")}
+        maven {
+            url = uri("https://artifactory-external.vkpartner.ru/artifactory/maven")
+        }
     }
 }
 rootProject.name = "UniversalPushExampleApp"

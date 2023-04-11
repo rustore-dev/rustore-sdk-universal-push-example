@@ -73,10 +73,10 @@ android {
 
 dependencies {
 
-    implementation 'ru.rustore.sdk:univeraslpush:0.1.0-QA'
-    implementation 'ru.rustore.sdk:univeraslrustore:0.1.0-QA'
-    implementation 'ru.rustore.sdk:univeraslhms:0.1.0-QA'
-    implementation 'ru.rustore.sdk:univeraslfcm:0.1.0-QA'
+    implementation 'ru.rustore.sdk:universalpush:0.1.0'
+    implementation 'ru.rustore.sdk:universalrustore:0.1.0'
+    implementation 'ru.rustore.sdk:universalhms:0.1.0'
+    implementation 'ru.rustore.sdk:universalfcm:0.1.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
