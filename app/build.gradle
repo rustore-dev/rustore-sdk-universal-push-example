@@ -113,21 +113,21 @@ android {
 
 dependencies {
 
-    implementation 'ru.rustore.sdk:universalpush:0.1.1'
-    implementation 'ru.rustore.sdk:universalrustore:0.1.1'
+    implementation 'ru.rustore.sdk:universalpush:1.0.0'
+    implementation 'ru.rustore.sdk:universalrustore:1.0.0'
 
     def taskNames = gradle.startParameter.taskNames.toString()
     /**
      * hms - часть имени Flavors
      */
     if (taskNames.containsIgnoreCase("hms")) {
-        implementation 'ru.rustore.sdk:universalhms:0.1.1'
+        implementation 'ru.rustore.sdk:universalhms:1.0.0'
     }
     /**
      * fcm - часть имени Flavors
      */
     if (taskNames.containsIgnoreCase("fcm")) {
-        implementation 'ru.rustore.sdk:universalfcm:0.1.1'
+        implementation 'ru.rustore.sdk:universalfcm:1.0.0'
     }
 
     implementation 'androidx.core:core-ktx:1.10.0'
