@@ -5,7 +5,7 @@ import android.util.Log
 import ru.rustore.sdk.core.tasks.OnCompleteListener
 import ru.rustore.sdk.universalpush.RuStoreUniversalPushClient
 import ru.rustore.sdk.universalpush.firebase.provides.FirebasePushProvider
-import ru.rustore.sdk.universalpush.rustore.logger.DefaultLogger
+import ru.rustore.sdk.pushclient.common.logger.DefaultLogger
 import ru.rustore.sdk.universalpush.rustore.providers.RuStorePushProvider
 
 class App: Application() {
